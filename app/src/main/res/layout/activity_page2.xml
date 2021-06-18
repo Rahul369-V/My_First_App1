@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text1"
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:padding="20dp"
+        android:text="@string/page2text"
+        android:textAllCaps="true"
+        android:textColor="@color/page_2title"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/text2"
+        style="@style/character_text"
+        android:text="aparna"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text1"
+        android:padding="10dp"
+        android:textColor="@color/page2textcolor"
+
+        android:textSize="25dp"
+       />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text2"
+        android:padding="10dp"
+        android:textSize="19dp"
+       android:textColor="@color/page2textcolor"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+
+        android:id="@+id/image2"
+
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@id/text3"
+        app:srcCompat="@drawable/image3"
+        android:layout_margin="30dp"/>
+    <Button
+        android:id="@+id/button3"
+        android:textColor="@color/textcolor"
+        android:background="@drawable/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image2"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:text="NEXT"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>

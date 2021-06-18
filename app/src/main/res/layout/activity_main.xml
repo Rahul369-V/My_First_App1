@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="172dp"
+        app:srcCompat="@drawable/image1"
+      android:layout_margin="30dp" />
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/box1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+       android:layout_below="@+id/image1"
+       android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shapes"
+        android:hint="Username"
+        android:padding="13dp"
+
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/box2"
+        android:hint="password"
+        android:padding="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/box1"
+        android:layout_margin="15dp"
+        android:background="@drawable/shapes" />
+
+    <Button
+        android:padding="10dp"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_below="@+id/box2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/buttons"
+        android:text="@string/signup"
+        android:textColor="@color/textcolor"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/button2"
+        android:textColor="@color/textcolor"
+        android:background="@drawable/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:text="@string/Nextpagebutton"
+        android:textSize="20dp"/>
+       
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+
+        android:textColor="#DC0F0F"
+        android:textSize="20dp"/>
+
+          </RelativeLayout>
+
+
+     </ScrollView>
+
+</RelativeLayout>
+

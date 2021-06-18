@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="dialogboxcolor">#64FFDA</color>
+    <color name="imagecolor">#0755F1</color>
+    <color name="textcolor">#F3EAEB</color>
+   <color name="buttoncolor">#C81976</color>
+    <color name="backgroundcolor">#0755F1</color>
+    <color name="page2textcolor">#F3D023</color>
+    <color name="background2color">#01579B</color>
+    <color name="page_2title">#2BED39</color>
+
+</resources>
